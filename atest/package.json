@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+	"buildprod": "ng build --prod --base-href ."
   },
   "private": true,
   "dependencies": {
@@ -43,4 +44,5 @@
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
   }
+
 }
